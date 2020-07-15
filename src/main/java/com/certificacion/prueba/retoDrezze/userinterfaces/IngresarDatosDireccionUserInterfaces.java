@@ -58,6 +58,10 @@ public class IngresarDatosDireccionUserInterfaces {
             .the("Guarda la informaciòn ingresada")
             .located(By.id("submitAddress"));
 
+    public static final Target MENSAJE_RESPUESTA_DIRECCION= Target
+            .the("Guarda la informaciòn ingresada")
+            .locatedBy("//*[@class='page-heading']");
+
 
 
 }
