@@ -60,7 +60,7 @@ public class IngresarDatosDireccionUserInterfaces {
 
     public static final Target MENSAJE_RESPUESTA_DIRECCION= Target
             .the("Guarda la informaciòn ingresada")
-            .locatedBy("//*[@class='page-heading']");
+            .locatedBy("//h1[@class='page-heading']");
 
 
 
