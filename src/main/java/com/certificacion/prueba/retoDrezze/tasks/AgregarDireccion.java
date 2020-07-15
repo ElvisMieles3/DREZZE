@@ -1,10 +1,8 @@
 package com.certificacion.prueba.retoDrezze.tasks;
 
 
-import com.certificacion.prueba.retoDrezze.interation.WaitInteration;
 import com.certificacion.prueba.retoDrezze.models.DatosAgregarDireccion;
 import com.certificacion.prueba.retoDrezze.userinterfaces.IngresarDatosDireccionUserInterfaces;
-import com.certificacion.prueba.retoDrezze.userinterfaces.IngresarUserInterfaces;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
