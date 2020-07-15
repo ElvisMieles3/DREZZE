@@ -4,7 +4,7 @@ package com.certificacion.prueba.retoDrezze.stepdefinitions;
 import com.certificacion.prueba.retoDrezze.models.DatosIngreso;
 import com.certificacion.prueba.retoDrezze.questions.IngresarLoguin;
 import com.certificacion.prueba.retoDrezze.tasks.AbrirNavegador;
-import com.certificacion.prueba.retoDrezze.tasks.IngresarCredenciales;
+import com.certificacion.prueba.retoDrezze.tasks.IngresarDatosLoguin;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -42,7 +42,7 @@ public class IngresarStepdefinitions {
 
     @When("^el ingresa la información para ingresar$")
     public void elIngresaLaInformaciónParaIngresar(List<DatosIngreso> datos) {
-        OnStage.theActorInTheSpotlight().attemptsTo(IngresarCredenciales.conDatos(datos.get(0)));
+        OnStage.theActorInTheSpotlight().attemptsTo(IngresarDatosLoguin.conDatos(datos.get(0)));
     }
 
     @Then("^el usuario debe ver el nombre (.*)$")

@@ -13,18 +13,6 @@ public class DatosAgregarDireccion {
 	private String informacionAdicional;
 	private String tituloDireccion;
 
-	public DatosAgregarDireccion(String direccion1, String direccion2, String cuidad, String estado, String codigoPostal, String pais, String numeroCasa, String numeroCelular, String informacionAdicional, String tituloDireccion) {
-		this.direccion1 = direccion1;
-		this.direccion2 = direccion2;
-		this.cuidad = cuidad;
-		this.estado = estado;
-		this.codigoPostal = codigoPostal;
-		this.pais = pais;
-		this.numeroCasa = numeroCasa;
-		this.numeroCelular = numeroCelular;
-		this.informacionAdicional = informacionAdicional;
-		this.tituloDireccion = tituloDireccion;
-	}
 
 	public String getDireccion1() {
 		return direccion1;
