@@ -14,6 +14,6 @@ Característica: Prueba de agregar una direcciòn
   Escenario: El Usuario desea registrar una nueva direcciòn
     Dado el Analista se encuentra en la pantalla de agregar direccion y digita los datos
 
-      | direccion1                      | direccion2               | cuidad   | estado  | codigoPostal | pais | numeroCasa | numeroCelular | informacionAdicional | tituloDireccion      |
-      | Santo domingo el pinar Casa 454 | Antigua Carretera Guarne | Medellin | Alabama | 90005        |      | 3045410190 |               | No aplica            | Kilometro 7 Casa 454 |
+      | direccion1                      | direccion2               | cuidad   | estado  | codigoPostal | pais          | numeroCasa | numeroCelular | informacionAdicional     | tituloDireccion      |
+      | Santo domingo el pinar Casa 454 | Antigua Carretera Guarne | Medellin | Alabama | 90005        | United States | 3045410190 |               | Casa azul con una palma | Kilometro 7 Casa 454 |
     Entonces el deberia ver en el mensaje Kilometro 7 Casa 454
